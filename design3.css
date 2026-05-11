@@ -1,0 +1,257 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#ECE9E9;
+    font-family:'Montserrat',sans-serif;
+    overflow-x:hidden;
+    color:#5A0005;
+
+    display:flex;
+    justify-content:center;
+}
+
+/* ================= WRAPPER ================= */
+
+.wrapper{
+    width:100%;
+    max-width:1800px;
+
+    position:relative;
+
+    padding:30px 40px 80px;
+}
+
+/* ================= STAR ================= */
+
+.logo{
+    position:absolute;
+    left:35px;
+    top:35px;
+}
+
+.logo svg{
+    width:55px;
+    height:55px;
+}
+
+/* ================= SMALL TEXT ================= */
+
+.future{
+    position:absolute;
+    top:35px;
+    right:40px;
+
+    font-size:12px;
+    line-height:1.1;
+    text-transform:uppercase;
+    color:#857575;
+    text-align:right;
+}
+
+/* ================= HERO ================= */
+/* ================= HERO ================= */
+
+.hero{
+    width:100%;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    padding-top:40px;
+}
+
+/* ================= MAIN HEADING ================= */
+
+.hero h1{
+
+    width:1400px;
+
+    font-size:92px;
+    line-height:0.92;
+    letter-spacing:-6px;
+    font-weight:600;
+    text-transform:uppercase;
+
+    /* IMPORTANT */
+    padding-left:120px;
+}
+
+/* ================= LOGO ================= */
+
+.logo{
+    position:absolute;
+
+    left:35px;
+    top:40px;
+
+    z-index:10;
+}
+
+.logo svg{
+    width:55px;
+    height:55px;
+}
+
+/* ================= INLINE SVG ================= */
+
+.inline-svg{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    transform:translateY(12px);
+
+    margin:0 10px;
+}
+
+.inline-svg svg{
+    width:130px;
+    height:auto;
+}
+
+/* ================= LIGHT TEXT ================= */
+
+.light{
+    color:#B7A8A8;
+}
+
+/* ================= DESCRIPTION ================= */
+
+.desc{
+
+    width:360px;
+
+    margin-top:22px;
+
+    /* aligns with heading start */
+    margin-left:-620px;
+
+    font-size:14px;
+    line-height:1.45;
+
+    color:#6B5B5B;
+}
+
+/* ================= HEADING ================= */
+
+.hero h1{
+    font-size:92px;
+    line-height:0.92;
+    letter-spacing:-6px;
+    font-weight:600;
+    text-transform:uppercase;
+
+    width:1450px;
+}
+
+/* faded text */
+
+.light{
+    color:#B7A8A8;
+}
+
+/* ================= INLINE SVG ================= */
+
+.inline-svg{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    transform:translateY(12px);
+
+    margin:0 12px;
+}
+
+.inline-svg svg{
+    width:130px;
+    height:auto;
+}
+
+/* ================= DESCRIPTION ================= */
+
+.desc{
+    width:360px;
+
+    margin-top:20px;
+    margin-left:-760px;
+
+    font-size:14px;
+    line-height:1.4;
+
+    color:#6E5D5D;
+}
+
+/* ================= LEFT TEXT ================= */
+
+.projects{
+    position:absolute;
+
+    left:20px;
+    top:500px;
+
+    font-size:22px;
+    line-height:1.05;
+
+    text-transform:uppercase;
+    text-decoration:underline;
+
+    color:#5A0005;
+}
+
+/* ================= CARDS ================= */
+
+.cards{
+    display:flex;
+    gap:22px;
+
+    margin-top:28px;
+}
+
+/* BIGGER CARDS */
+
+.card{
+    width:300px;
+    height:360px;
+
+    border-radius:18px;
+    overflow:hidden;
+
+    background:#222;
+}
+
+.card img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+/* ================= SECOND SECTION ================= */
+
+.section2{
+    margin-top:140px;
+    text-align:center;
+}
+
+.section2 h2{
+    font-size:72px;
+    line-height:0.95;
+    letter-spacing:-5px;
+    text-transform:uppercase;
+    font-weight:600;
+}
+
+.section2 p{
+    width:420px;
+
+    margin:20px auto 0;
+
+    font-size:13px;
+    line-height:1.5;
+
+    color:#6B5A5A;
+}
